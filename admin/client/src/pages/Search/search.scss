@@ -1,0 +1,33 @@
+.search{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+
+
+    .search__container{
+        padding: 6rem 3rem 2rem 3rem;
+        width: 100%;
+        height: auto;
+        background-color: var(--bg-color);
+        color: #fff;
+        display: flex;
+
+        .search__left{
+            flex-grow: 1;
+            margin: 4rem 0rem 2rem 3rem;
+        }
+
+        .search__right{
+            flex-grow: 6;
+            margin-top: 2rem;
+            padding-left: 4rem;
+        }
+
+        img {
+            width: 150px;
+            height: 200px;
+            border: 2px solid;
+            border-radius: 10px;
+        }
+    }
+}
